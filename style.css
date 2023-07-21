@@ -255,7 +255,7 @@ border: 2px solid  gainsboro;
     background-color:#fff;
     columns: 3;
     position:relative;
-    top:350px;
+     top:350px;
     margin: 5px 20px;
     bottom: auto;
 }
@@ -269,17 +269,21 @@ border: 2px solid  gainsboro;
     height:300px;
      padding: 8px 2px;
     border: 2px solid gainsboro;
+    position: relative;
 }
-.video{
-    display: block;
-    position: absolute;
+ .video{
+    display:block;
+    position:relative;
     bottom:25px;
-}
+    top:390px;
+} 
  .footer{
     /* background-color:#0693e3;  */
     display: flex;
     color: #fff;
     width: 100%;
+    position: relative;
+     top: 400px; 
 }
 .footer a{
    color: white;
@@ -291,7 +295,8 @@ border: 2px solid  gainsboro;
 .footer div{
     padding:8px 8px; 
     position:relative;
-    top: 550px;
+    /* top: 550px; */
+    top: auto;
     background-color: #0066b3;
 }
 .copyright{
@@ -301,8 +306,8 @@ border: 2px solid  gainsboro;
    height:auto;
    text-align: center;
    padding: 8px 0;
-   position: relative;
-   top: 550px;
+   position:relative;
+    top:400px; 
 } 
 @media(max-width:695px){
     .container{
@@ -355,10 +360,11 @@ border: 2px solid  gainsboro;
   display: block;
 }
 }
-.video{
+/* .video{
     position:absolute;
-    top:3500px;
-}
+    /* top:3500px; */
+
+
 @media(max-width:400px){
     .container{
         height: 250px;
@@ -374,26 +380,49 @@ border: 2px solid  gainsboro;
     .next-div img{
         width: 250px;
     }
+    .video{
+         position:relative;
+        top:350px;
+        width: 300px;
+        height: 100px;
+    } 
     .video iframe{
-        width: 250px;
-        height: 250px;
+        width: 265px;
+    }
+    .copyright{
+        position: relative;
+        top: 600px;
     }
 }
 @media(max-width:500px){
-    .footer{
+    /* .footer{
         display: block;
-    }
+    } */
     .companies{
         columns: 2;
+        position: relative;
+        bottom: 1400px;
     }
     .video{
         position:relative;
-        top: 380px;
+        top:350px;
         width: 100px;
         height: 100px;
+    }  
+     .footer{
+        display: block;
+        position:absolute;
+     top: 410px;
+     height: fit-content;
+    }
+    .copyright{
+        position:relative;
+        top:990px;
     }
 }
-#hamberger{
-     display: none; 
-    color: white;
+@media(max-width:450px){
+    .copyright{
+        position:relative;
+        top:900px;
+    }
 }
