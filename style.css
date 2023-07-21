@@ -420,9 +420,4 @@ border: 2px solid  gainsboro;
         top:990px;
     }
 }
-@media(max-width:450px){
-    .copyright{
-        position:relative;
-        top:900px;
-    }
-}
+
