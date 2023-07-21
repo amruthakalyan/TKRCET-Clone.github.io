@@ -189,7 +189,7 @@
 }
 .Principal{
     width:auto;
-    height: auto;
+    height:auto;
     color: #fff;
     background-color: #191818;
     position: relative;
@@ -200,6 +200,10 @@
     bottom: auto;
     height: fit-content;
     top: auto;
+}
+.programs{
+    position: relative;
+    top:310px;
 }
 .two{
     position: absolute;
@@ -241,21 +245,12 @@ border: 2px solid  gainsboro;
     color: red;
     text-decoration: underline;
 }
-.programs{
-    position:relative;
-    top: auto;
-    
-}
-.programs img{
-    padding:10px 5px;
-    position:absolute;
-    top: 80px;
-}
+
 .companies{
     background-color:#fff;
     columns: 3;
     position:relative;
-     top:350px;
+     top:350px; 
     margin: 5px 20px;
     bottom: auto;
 }
@@ -298,6 +293,7 @@ border: 2px solid  gainsboro;
     /* top: 550px; */
     top: auto;
     background-color: #0066b3;
+    padding: 9px 10px;
 }
 .copyright{
    background-color: #0b0a0a;
@@ -392,6 +388,9 @@ border: 2px solid  gainsboro;
     .copyright{
         position: relative;
         top: 600px;
+        height: 200px;
+        background-color: #131212;
+        padding-top: 15px;
     }
 }
 @media(max-width:500px){
@@ -417,7 +416,7 @@ border: 2px solid  gainsboro;
     }
     .copyright{
         position:relative;
-        top:990px;
+        top:980px;
     }
 }
 
