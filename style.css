@@ -358,6 +358,10 @@ border: 2px solid  gainsboro;
 .companies h1{
   display: block;
 }
+.next-div{
+    flex-wrap: wrap;
+    text-align: center;
+}
 }
 /* .video{
     position:absolute;
